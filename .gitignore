@@ -1,0 +1,37 @@
+# Compiled output
+*.out
+*.o
+
+# Simulation waveform and log files
+*.vcd
+*.vpd
+*.wlf
+*.log
+*.dump
+
+# Tool-specific files and directories
+# ------------------------------------
+# ModelSim/QuestaSim
+transcript
+modelsim.ini
+*.mpf
+work/
+vsim.wlf
+
+# Xilinx Vivado
+.Xil/
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.impl/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Intel Quartus
+db/
+incremental_db/
+output_files/
+c5_pin_model_dump.txt
